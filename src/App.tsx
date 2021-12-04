@@ -1,5 +1,6 @@
-import React from "react";
-import "./App.css";
+import React from 'react';
+
+import './App.css';
 
 function App() {
   return (
@@ -29,10 +30,7 @@ function App() {
             </div>
             <ul className="absolute hidden transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 lg:flex lg:mx-auto lg:items-center lg:w-auto lg:space-x-6">
               <li>
-                <a
-                  className="text-sm text-gray-400 hover:text-gray-500"
-                  href="/"
-                >
+                <a className="text-sm text-gray-400 hover:text-gray-500" href="/">
                   Home
                 </a>
               </li>
@@ -74,10 +72,7 @@ function App() {
                 </svg>
               </li>
               <li>
-                <a
-                  className="text-sm text-gray-400 hover:text-gray-500"
-                  href="/"
-                >
+                <a className="text-sm text-gray-400 hover:text-gray-500" href="/">
                   Blogs
                 </a>
               </li>
@@ -98,10 +93,7 @@ function App() {
                 </svg>
               </li>
               <li>
-                <a
-                  className="text-sm text-gray-400 hover:text-gray-500"
-                  href="/"
-                >
+                <a className="text-sm text-gray-400 hover:text-gray-500" href="/">
                   Zoeken
                 </a>
               </li>
@@ -229,9 +221,7 @@ function App() {
           <div className="container px-4 mx-auto">
             <div className="flex flex-wrap items-center justify-center mb-16 md:justify-between">
               <div className="text-center lg:text-left">
-                <h2 className="text-4xl font-bold lg:text-5xl font-heading">
-                  Nieuwste Posts
-                </h2>
+                <h2 className="text-4xl font-bold lg:text-5xl font-heading">Nieuwste Posts</h2>
               </div>
               <a
                 className="hidden px-6 py-2 font-bold leading-loose transition duration-200 bg-green-600 md:inline-block rounded-l-xl rounded-t-xl hover:bg-green-700 text-gray-50"
@@ -250,13 +240,8 @@ function App() {
                   />
                   <div className="p-6">
                     <span className="text-gray-400">2021</span>
-                    <h3 className="mb-4 text-2xl font-bold font-heading">
-                      Brosse pepernoten
-                    </h3>
-                    <a
-                      className="flex font-bold text-green-600 hover:text-green-700"
-                      href="/"
-                    >
+                    <h3 className="mb-4 text-2xl font-bold font-heading">Brosse pepernoten</h3>
+                    <a className="flex font-bold text-green-600 hover:text-green-700" href="/">
                       <svg
                         className="w-6 h-6 mr-3"
                         xmlns="http://www.w3.org/2000/svg"
@@ -286,10 +271,7 @@ function App() {
                     <h3 className="mb-4 text-2xl font-bold font-heading">
                       Koekjes voor koude dagen
                     </h3>
-                    <a
-                      className="flex font-bold text-green-600 hover:text-green-700"
-                      href="/"
-                    >
+                    <a className="flex font-bold text-green-600 hover:text-green-700" href="/">
                       <svg
                         className="w-6 h-6 mr-3"
                         xmlns="http://www.w3.org/2000/svg"
@@ -319,10 +301,7 @@ function App() {
                     <h3 className="mb-4 text-2xl font-bold font-heading">
                       gevulde-speculaas-taartje
                     </h3>
-                    <a
-                      className="flex font-bold text-green-600 hover:text-green-700"
-                      href="/"
-                    >
+                    <a className="flex font-bold text-green-600 hover:text-green-700" href="/">
                       <svg
                         className="w-6 h-6 mr-3"
                         xmlns="http://www.w3.org/2000/svg"
@@ -406,7 +385,7 @@ function App() {
                 <div className="w-full lg:w-1/3">
                   <img
                     className="object-cover w-full mb-5 rounded-lg lg:mb-0"
-                    style={{ maxHeight: "350px" }}
+                    style={{ maxHeight: '350px' }}
                     src="images/239DE1F6-2DC5-4884-8F78-00EADC54B49A.jpeg"
                     alt=""
                   />
@@ -414,18 +393,14 @@ function App() {
                 <div className="w-full lg:w-2/3">
                   <div className="max-w-lg mx-auto">
                     <p className="mb-8 text-2xl text-gray-500">
-                      Welkom op mijn blog! Ik hou er van om in de keuken nieuw
-                      probeersels te maken. Wanneer dit is gelukt, deel ik ze
-                      graag!
+                      Welkom op mijn blog! Ik hou er van om in de keuken nieuw probeersels te maken.
+                      Wanneer dit is gelukt, deel ik ze graag!
                     </p>
                     <div className="flex items-center justify-between">
                       <div>
-                        <h4 className="text-2xl font-bold font-heading">
-                          Mieke in de Keuken
-                        </h4>
+                        <h4 className="text-2xl font-bold font-heading">Mieke in de Keuken</h4>
                         <p className="text-blueGrey-500">
-                          Eigenaar van een kleinschalige catering en liefhebber
-                          van lekker eten.
+                          Eigenaar van een kleinschalige catering en liefhebber van lekker eten.
                         </p>
                       </div>
                       <a href="/"> </a>
@@ -461,38 +436,22 @@ function App() {
           <div className="flex flex-wrap -mx-2">
             <div className="w-full px-2 mb-16 lg:mb-0 md:w-1/2 lg:w-1/4">
               <a href="/">
-                <img
-                  className="h-8 mx-auto"
-                  src="atis-assets/logo/brands/slack.png"
-                  alt=""
-                />
+                <img className="h-8 mx-auto" src="atis-assets/logo/brands/slack.png" alt="" />
               </a>
             </div>
             <div className="w-full px-2 mb-16 lg:mb-0 md:w-1/2 lg:w-1/4">
               <a href="/">
-                <img
-                  className="h-8 mx-auto"
-                  src="atis-assets/logo/brands/dropbox.png"
-                  alt=""
-                />
+                <img className="h-8 mx-auto" src="atis-assets/logo/brands/dropbox.png" alt="" />
               </a>
             </div>
             <div className="w-full px-2 mb-16 md:mb-0 md:w-1/2 lg:w-1/4">
               <a href="/">
-                <img
-                  className="h-8 mx-auto"
-                  src="atis-assets/logo/brands/spotify.png"
-                  alt=""
-                />
+                <img className="h-8 mx-auto" src="atis-assets/logo/brands/spotify.png" alt="" />
               </a>
             </div>
             <div className="w-full px-2 md:w-1/2 lg:w-1/4">
               <a href="/">
-                <img
-                  className="h-8 mx-auto"
-                  src="atis-assets/logo/brands/stripe.png"
-                  alt=""
-                />
+                <img className="h-8 mx-auto" src="atis-assets/logo/brands/stripe.png" alt="" />
               </a>
             </div>
           </div>
