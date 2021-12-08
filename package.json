@@ -4,6 +4,8 @@
   "private": true,
   "scripts": {
     "start": "craco start",
+    "markdown": "m2j --content --outfile src/data.json posts/*",
+    "prepare": "markdown",
     "build": "craco build",
     "test": "craco test",
     "eject": "react-scripts eject",
@@ -40,6 +42,7 @@
     "eslint-plugin-promise": "^5.2.0",
     "eslint-plugin-react": "^7.27.1",
     "eslint-plugin-simple-import-sort": "^7.0.0",
+    "markdown-to-json": "^0.5.4",
     "postcss": "^7",
     "prettier": "^2.5.0",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat"

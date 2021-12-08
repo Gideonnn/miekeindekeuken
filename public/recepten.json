@@ -1,0 +1,41 @@
+{
+  "all": [
+    {
+      "id": "0",
+      "date": "2021-12-05",
+      "title": "Pompoen cakejes",
+      "description": "Oktober begint en overal zijn pompoenen te vinden. In de supermarkt, op het land en bij de buurman op de stoep.",
+      "images": {
+        "1": "/pompoen-cakejes/1.jpeg",
+        "2": "/pompoen-cakejes/2.jpeg"
+      },
+      "post": [
+        {
+          "type": "img",
+          "src": "/pompoen-cakejes/1.jpeg",
+          "alt": "Pompoen cakejes"
+        },
+        {
+          "type": "p",
+          "content": "Oktober begint en overal zijn pompoenen te vinden. In de supermarkt, op het land en bij de buurman op de stoep. De wereld veranderd langzaam in oranje en rood, de kleuren van de Herfst."
+        },
+        {
+          "type": "p",
+          "content": "Stel je voor: tijdens een mooie, zonnige herfstdag aan het nagenieten van de zomer. Met een grote kop thee en een flink stuk cake. Dat is toch precies wat je nodig hebt?"
+        },
+        {
+          "type": "p",
+          "content": "Nog even nagenieten van de mooie dagen."
+        }
+      ],
+      "link": ""
+    },
+    {
+      "id": "1",
+      "date": "2021-12-05",
+      "title": "Pompoensoep",
+      "description": "Oktober begint en overal zijn pompoenen te vinden. In de supermarkt, op het land en bij de buurman op de stoep.",
+      "link": ""
+    }
+  ]
+}
