@@ -5,7 +5,7 @@
   "scripts": {
     "start": "craco start",
     "markdown": "m2j --content --outfile src/data.json posts/*",
-    "prepare": "markdown",
+    "prepare": "yarn markdown",
     "build": "craco build",
     "test": "craco test",
     "eject": "react-scripts eject",
