@@ -1,4 +1,5 @@
 ---
+id: pompoen-cakejes
 title: Pompoen cakejes
 subtitle: Nondeju wat een lekkere cakjes, en dat met nep suiker. Wie had dat gedacht...
 image: /images/pompoen-cakejes/1.jpeg

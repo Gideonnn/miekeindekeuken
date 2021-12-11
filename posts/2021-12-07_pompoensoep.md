@@ -1,4 +1,5 @@
 ---
+id: pompoensoep
 title: Pompoensoep
 subtitle: Fucking lekker die pompoensoep jonge, moet je deze eens proberen. Ken niet mis gaan!
 image: /images/pompoensoep/1.jpeg
