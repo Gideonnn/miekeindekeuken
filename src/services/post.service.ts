@@ -31,9 +31,31 @@ const preProcessPost = (post: PostData): PostData => ({
     .join(''),
 });
 
-export const getPosts = (): PostData[] =>
+export const getPosts = (limit = Infinity): PostData[] =>
   Object.values(data)
-    .slice(0, 5)
+    .slice(0, limit)
     .map(post => preProcessPost(post));
 
 export const getPost = (id: string): PostData | undefined => getPosts().find(x => x.id === id);
+
+export const getPreviousPost = (currentPostId: string): PostData | undefined => {
+  const posts = getPosts();
+  const currentPostIndex = posts.findIndex(x => x.id === currentPostId);
+
+  if (currentPostIndex > 0) {
+    return posts[currentPostIndex - 1];
+  }
+
+  return undefined;
+};
+
+export const getNextPost = (currentPostId: string): PostData | undefined => {
+  const posts = getPosts();
+  const currentPostIndex = posts.findIndex(x => x.id === currentPostId);
+
+  if (currentPostIndex < posts.length) {
+    return posts[currentPostIndex + 1];
+  }
+
+  return undefined;
+};

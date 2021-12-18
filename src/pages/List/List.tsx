@@ -5,7 +5,7 @@ import { getPosts } from '../../services';
 import { PostData } from '../../types';
 
 export const List = () => {
-  const posts: PostData[] = getPosts();
+  const posts: PostData[] = getPosts(5);
 
   return (
     <div>
@@ -32,7 +32,7 @@ export const List = () => {
                 {post.title}
               </h2>
               <p className="text-gray-400">{post.subtitle || post.preview}</p>
-              <Link to={`/post/${post.id}`} className="flex items-center mt-3">
+              <Link to={`/posts/${post.id}`} className="flex items-center mt-3 text-pink-400">
                 <span className="mr-1 hover:underline">Bekijk post</span>
                 <ArrowCircleRight />
               </Link>

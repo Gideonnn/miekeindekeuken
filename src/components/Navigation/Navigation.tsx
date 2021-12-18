@@ -8,7 +8,7 @@ export const Navigation = () => (
       <div className="pl-4">
         <a
           className="text-base font-extrabold text-gray-900 no-underline hover:no-underline"
-          href="#"
+          href="/"
         >
           <div className="flex items-center">
             <img src="/images/midk.png" alt="website logo" className="object-contain w-8" />
